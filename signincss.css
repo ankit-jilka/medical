@@ -1,0 +1,117 @@
+body{
+    background-color:#caddca;
+}
+
+.Nevigationbar {
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -8px;
+    margin-right: 25px;
+    background-color: rgb(9, 56, 75);  
+    position:fixed;
+    width: 100%;
+    z-index: 2;        
+}
+.Nevigationbar h3 {
+    float: right;
+    color :rgb(241, 239, 239);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    font-size: 120%;   
+
+}
+.Nevigationbar h1{
+    padding-left: 10px;
+    color: rgb(207, 198, 198);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Nevigationbar h3:hover{
+    color:rgb(115, 180, 115);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.searchtext{
+    margin-left: 70px;
+    margin-top: 24px; 
+    float: right;
+    width:270px;
+    height: 25px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 18px;
+}
+
+#searchbutton{
+    margin-top: 25px;
+    margin-right: 100px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content:space-around;
+    cursor:pointer;
+    
+}
+.searchbar{
+    position: relative;
+}
+
+.signin{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 120px;
+}
+p{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -10px;
+    font-size: 35px;
+    font-weight: 1000;    
+    background-color: white;
+    width: 100%;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.fom{
+    background-color: white;
+    margin-left: 400px;
+    padding-left: 70px;
+    padding-right: 85px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: rgb(22, 152, 228);
+}
+td{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: rgb(12, 2, 100);
+    font-size: larger;
+
+}
+.fom input{
+    width: 200px;
+    height: 20px;
+}
+.fom button{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 230px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgb(142, 177, 206);
+    font-weight: bolder;
+    font-size: medium;
+}
+.fom h3{
+    font-size: larger;
+    margin-left: 135px;
+}
+.fom button:hover{
+    background-color: rgb(85, 113, 136);
+    cursor: pointer;
+}

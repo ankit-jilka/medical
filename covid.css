@@ -1,0 +1,129 @@
+body{
+    background-color:#caddca;
+}
+
+.Nevigationbar {
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -8px;
+    margin-right: 25px;
+    background-color: rgb(9, 56, 75);  
+    position:fixed;
+    width: 100%;
+    z-index: 2;        
+}
+.Nevigationbar h3 {
+    float: right;
+    color :rgb(241, 239, 239);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    font-size: 120%;   
+
+}
+.Nevigationbar h1{
+    padding-left: 10px;
+    color: rgb(207, 198, 198);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Nevigationbar h3:hover{
+    color:rgb(115, 180, 115);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.searchtext{
+    margin-left: 70px;
+    margin-top: 24px; 
+    float: right;
+    width:270px;
+    height: 25px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 18px;
+}
+
+#searchbutton{
+    margin-top: 25px;
+    margin-right: 100px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content:space-around;
+    cursor:pointer;
+    
+}
+.searchbar{
+    position: relative;
+}
+.maskdiv{
+    position: absolute;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.trdata{
+;
+}
+.foot{
+    position: absolute;
+    color:rgb(187, 177, 137);
+    margin-top: 500px;
+    background-color:rgb(31, 50, 75);
+    width: 100%;
+    height: 500px;
+    padding-top: 15px;
+    padding-bottom: 95px;
+    
+    margin-left: -9px;
+    margin-right: -100px;
+}
+.foot h2{
+    color: rgb(240, 233, 209);
+}
+.footcate{
+    margin-left: 70px;
+    margin-top: 12px;    
+}
+.otherprod{
+    margin-top: -410px;
+    margin-left: 290px;
+}
+.brands{
+    margin-top: -450px;
+    margin-left: 590px;
+}
+.footcontact{
+    margin-top: -460px;
+    margin-left: 800px;
+}
+.footcontact h4{
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color:rgb(221, 203, 130)
+}    
+.footcontact h2{
+    margin-top: 30px;
+}
+.footfollowus{
+    margin-top: -470px;
+    margin-left: 1100px;
+}
+.footfollowus img{
+    margin-top: 15px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.foot h3:hover{
+    cursor:pointer;
+    color: rgb(136, 126, 84); 
+}
+.foot img:hover{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}

@@ -1,0 +1,354 @@
+body{
+    background-color:#caddca;
+}
+.Nevigationbar {
+    position: absolute;
+    margin-left: -8px;
+    margin-right: 2px;
+    margin-top: -80px;
+    background-color: rgb(9, 56, 75);  
+    position:fixed;
+    width: 100%;
+    z-index: 2;    
+}
+.Nevigationbar a {
+    float: right;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    font-size: 120%;   
+    text-decoration: none;
+    color :rgb(241, 239, 239);
+}
+
+#title{
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Nevigationbar a:hover{
+    color:rgb(115, 180, 115);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+input{
+    margin-left: 764px;
+    margin-top: 24px; 
+    float: right;
+    width:270px;
+    height: 25px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 18px;
+}
+
+#searchbutton{
+    margin-top: 25px;
+    margin-right: 100px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content:space-around;
+    cursor:pointer;
+   
+}
+.searchbar{
+    position: absolute;
+    top: 1px;
+}
+
+#topButton{
+    display: none;
+    position: fixed;
+    margin-top: 180px;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    background-color: rgb(196, 117, 93);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    width: 80px;
+    font-size: large;
+    font-weight: bold;
+}
+#topButton:hover{
+    background-color: rgb(138, 68, 46);;
+}
+.imhome{
+    opacity: 0.4;
+    position: absolute;
+    top: 72px;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: 8px;
+}
+#tex {
+    position: relative;
+    padding-left: 20px;
+    padding-top: 300px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: stretch;
+    animation: mymove 4s steps(90) infinite;    
+    overflow: hidden;
+    white-space: nowrap;        
+}
+@keyframes mymove {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:32ch;
+    }
+}
+
+
+
+.covid{
+    
+    margin-left: 13px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 96%;
+    padding-left: 13px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-color: rgba(97, 175, 206, 0.856);
+    border-width: 3px;
+    border-style: solid;
+}
+.tdcovid{
+    border-style:solid;
+    border-color: tomato;
+    border-radius: 50px;
+}
+.covidpics{
+    padding-left: 10px;
+    border-radius: 50%;
+}
+.coviddata{
+    float:right;
+    margin-left: 9px;
+    margin-right: 40px;
+}
+.tdcovid:hover{
+    background-color:rgba(117, 219, 214, 0.856);
+    border-color:rgb(78, 219, 78);
+    cursor: pointer;
+}
+
+.recommand{
+    margin-top: 40px;
+    margin-left: 13px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 97%;
+    background-color: white;
+    border-radius: 15px;
+    border-color: rgba(97, 175, 206, 0.856);
+    border-style: solid;
+    border-width: 3px;    
+}
+.tdrec{
+    padding-left: 68px;
+    padding-right: 65px;
+    border-width: 1px;
+    border-style:inset;
+}
+.recdata{
+   font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.recdat{
+    padding-right: 10px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.recrupee{
+    margin-top: -13px;
+    margin-left: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(250, 107, 25, 0.904);
+}
+.tdrec:hover {
+    background-color: rgba(117, 219, 214, 0.856);
+    border-color: rgb(78, 219, 78);
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.addcart{
+    margin-left: -5px;
+    width:140px;
+    height: 30px;
+    margin-bottom:10px;
+    background-color: rgb(255, 170, 151);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.addcart:hover{
+    background-color: rgb(226, 110, 84);
+    cursor: pointer;
+}
+.addcart:active{
+    transform: translateY(4px);
+}
+
+#viewall1{
+      height: 10px;
+      margin-top: -10px;
+      margin-left: 75px;
+    
+}
+#viewall2{
+      margin-left: 50px;
+      margin-top:-10px
+    }
+  
+.view:hover {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+}    
+
+.medithings{
+    margin-top: 50px;
+    position: relative;
+    width:290
+    
+}
+.medithings img{
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 30px;
+    border-color: rgba(63, 165, 206, 0.856);
+    border-width: 4px;
+    border-style: solid;
+}
+.medibutton {
+    position: absolute;
+    margin-left: -390px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    width: 80px;
+    height: 35px;
+    background-color: rgba(100, 241, 232, 0.856);
+}
+.medibutton:hover{
+    width: 110px;
+    height: 40px;
+    background-color:  rgba(25, 170, 238, 0.911);
+    cursor: pointer;
+}
+.medibutton:active{
+    transform: translateY(5px);    
+}
+.medi2 img{
+    position:relative;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(63, 165, 206, 0.856);
+}
+.baby {
+    margin-top: 90px;
+    position: relative;
+    margin-left: 200px;
+}
+.other{
+    margin-left: 180px;
+    margin-top: 60px;
+    margin-right: 90px;
+}
+
+.otherbutton{
+    height: 100px;
+    width: 420px;
+    margin-top: -30px;
+    background-color: rgb(125, 125, 206);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: solid;
+}
+.otherbutton:hover{
+    background-color: rgb(97, 97, 139);
+    cursor: pointer;
+}
+.foot{
+    color:rgb(187, 177, 137);
+    margin-top: 90px;
+    background-color:rgb(31, 50, 75);
+    width: 100%;
+    height: 500px;
+    padding-top: 15px;
+    padding-bottom: 95px;
+    width: 101%;
+    margin-left: -9px;
+    margin-right: -100px;
+}
+.foot h2{
+    color: rgb(240, 233, 209);
+}
+.footcate{
+    margin-left: 70px;
+    margin-top: 12px;    
+}
+.otherprod{
+    margin-top: -410px;
+    margin-left: 290px;
+}
+.brands{
+    margin-top: -450px;
+    margin-left: 590px;
+}
+.footcontact{
+    margin-top: -460px;
+    margin-left: 800px;
+}
+.footcontact h4{
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color:rgb(221, 203, 130)
+}    
+.footcontact h2{
+    margin-top: 30px;
+}
+.footfollowus{
+    margin-top: -470px;
+    margin-left: 1100px;
+}
+.footfollowus img{
+    margin-top: 15px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.foot h3:hover{
+    cursor:pointer;
+    color: rgb(136, 126, 84); 
+}
+.foot img:hover{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
